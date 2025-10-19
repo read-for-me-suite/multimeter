@@ -1,0 +1,241 @@
+
+pi@pitest5:~/BLE $ python -i owon_ble_monitor_v5.py
+Terminé
+[🗣] En attente de connexion au multimètre OWON 16. Activez le Bluetooth.
+✅ OWON détecté : BDM @ A6:C0:80:90:2D:DB
+[🗣] Multimètre OWON détecté. Connexion.
+[2025-04-28T20:38:03.688896] ➤ Mode AutoRange activé
+[🗣] Mode AutoRange activé
+[2025-04-28T20:38:06.891877] ➤ 0.0 MILLI VOLT DC
+[🗣] 0.0 MILLI VOLT DC
+[🗣] Lecture des mesures en cours.
+[2025-04-28T20:38:22.764040] ➤ 16.383 OHM NORMAL
+[🗣] 16.383 OHM NORMAL
+[2025-04-28T20:38:25.993238] ➤ 16.383 KILO OHM
+[🗣] 16.383 KILO OHM
+[2025-04-28T20:38:29.211412] ➤ 16.383 MEGA OHM
+[🗣] 16.383 MEGA OHM
+[2025-04-28T20:38:45.599414] ➤ Mode AutoRange désactivé
+[🗣] Mode AutoRange désactivé
+[2025-04-28T20:38:56.099623] ➤ 16.383 OHM NORMAL
+[🗣] 16.383 OHM NORMAL
+[2025-04-28T20:39:18.269750] ➤ 0.0 CONTINUITY TEST
+[🗣] 0.0 CONTINUITY TEST
+[2025-04-28T20:39:28.049937] ➤ Mode AutoRange activé
+[🗣] Mode AutoRange activé
+[2025-04-28T20:39:31.262958] ➤ 0.0 NANO FARAD
+[🗣] 0.0 NANO FARAD
+[2025-04-28T20:39:45.480115] ➤ 0.0 HERTZ
+[🗣] 0.0 HERTZ
+[2025-04-28T20:39:52.315108] ➤ Mode AutoRange désactivé
+[🗣] Mode AutoRange désactivé
+[2025-04-28T20:39:55.523571] ➤ 0.0 CELSIUS
+[🗣] 0.0 CELSIUS
+[2025-04-28T20:40:00.060259] ➤ 0.0 OHM NORMAL
+[🗣] 0.0 OHM NORMAL
+[2025-04-28T20:40:02.277998] ➤ 0.0 NEAR FIELD
+[🗣] 0.0 NEAR FIELD
+[2025-04-28T20:40:08.430283] ➤ Mode AutoRange activé
+[🗣] Mode AutoRange activé
+[2025-04-28T20:40:11.628220] ➤ 0.0 OHM NORMAL
+[🗣] 0.0 OHM NORMAL
+[2025-04-28T20:40:13.830658] ➤ 0.0 MICRO AMPERE DC
+[🗣] 0.0 MICRO AMPERE DC
+[2025-04-28T20:40:21.990469] ➤ 0.0 OHM NORMAL
+[🗣] 0.0 OHM NORMAL
+[2025-04-28T20:40:24.173379] ➤ 0.0 MILLI AMPERE AC
+[🗣] 0.0 MILLI AMPERE AC
+[2025-04-28T20:40:31.975535] ➤ Mode AutoRange désactivé
+[🗣] Mode AutoRange désactivé
+[2025-04-28T20:40:35.184086] ➤ 0.0 OHM NORMAL
+[🗣] 0.0 OHM NORMAL
+[2025-04-28T20:40:37.417013] ➤ 0.0 AMPERE DC
+[🗣] 0.0 AMPERE DC
+[2025-04-28T20:40:46.620730] ➤ Mode AutoRange activé
+[🗣] Mode AutoRange activé
+[2025-04-28T20:40:49.823990] ➤ 0.0 OHM NORMAL
+[🗣] 0.0 OHM NORMAL
+[2025-04-28T20:40:52.046685] ➤ 0.0 MILLI AMPERE AC
+[🗣] 0.0 MILLI AMPERE AC
+[2025-04-28T20:40:55.259663] ➤ 0.0 OHM NORMAL
+[🗣] 0.0 OHM NORMAL
+[2025-04-28T20:40:57.457192] ➤ 0.0 MICRO AMPERE DC
+[🗣] 0.0 MICRO AMPERE DC
+[2025-04-28T20:41:00.656519] ➤ Mode AutoRange désactivé
+[🗣] Mode AutoRange désactivé
+[2025-04-28T20:41:03.865059] ➤ 0.0 OHM NORMAL
+[🗣] 0.0 OHM NORMAL
+[2025-04-28T20:41:06.062318] ➤ 0.0 NEAR FIELD
+[🗣] 0.0 NEAR FIELD
+[2025-04-28T20:41:08.260215] ➤ 0.0 CELSIUS
+[🗣] 0.0 CELSIUS
+[2025-04-28T20:41:10.456950] ➤ Mode AutoRange activé
+[🗣] Mode AutoRange activé
+[2025-04-28T20:41:13.654943] ➤ 0.0 HERTZ
+[🗣] 0.0 HERTZ
+[🗣] Multimètre déconnecté.
+[🗣] En attente de connexion au multimètre OWON 16. Activez le Bluetooth.
+✅ OWON détecté : BDM @ A6:C0:80:90:2D:DB
+[🗣] Multimètre OWON détecté. Connexion.
+[2025-04-28T20:41:34.171398] ➤ 0.0 MILLI VOLT DC
+[🗣] 0.0 MILLI VOLT DC
+[🗣] Lecture des mesures en cours.
+^C
+⏹ Arrêt demandé par l'utilisateur.
+>>> dir()
+['BLEDevice', 'BleakClient', 'BleakScanner', 'CHARACTERISTIC_UUID', 'CONFIG_FILE', 'Dict', 'MODEL_NAME', 'Optional', 'OwonBLEMonitor', 'Owon_MultimeterData', '__annotations__', '__builtins__', '__date__', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '__version__', 'asyncio', 'datetime', 'json', 'load_tts_parameters', 'monitor', 'pyttsx3', 'threading', 'tts']
+
+
+>>> def print_tts_properties():
+...     """Affiche la configuration actuelle de la synthèse vocale TTS."""
+...     print("\n=== Configuration actuelle de la synthèse vocale ===")
+...     print(f"Débit (rate)    : {tts.getProperty('rate')}")
+...     print(f"Volume (volume) : {tts.getProperty('volume')}")
+...     print(f"Voix sélectionnée (voice id) : {tts.getProperty('voice')}")
+...     voices = tts.getProperty('voices')
+...     print(f"Nombre total de voix disponibles : {len(voices)}")
+...     for i, voice in enumerate(voices):
+...         print(f"Voix {i} : {voice.id} - {voice.name} - Langues : {voice.languages}")
+...     print("====================================================\n")
+...
+>>> print_tts_properties()
+
+=== Configuration actuelle de la synthèse vocale ===
+Débit (rate)    : 110
+Volume (volume) : 0.8
+Voix sélectionnée (voice id) : Afrikaans
+Nombre total de voix disponibles : 131
+Voix 0 : Afrikaans - Afrikaans - Langues : ['af']
+Voix 1 : Amharic - Amharic - Langues : ['am']
+Voix 2 : Aragonese - Aragonese - Langues : ['an']
+Voix 3 : Arabic - Arabic - Langues : ['ar']
+Voix 4 : Assamese - Assamese - Langues : ['as']
+Voix 5 : Azerbaijani - Azerbaijani - Langues : ['az']
+Voix 6 : Bashkir - Bashkir - Langues : ['ba']
+Voix 7 : Belarusian - Belarusian - Langues : ['be']
+Voix 8 : Bulgarian - Bulgarian - Langues : ['bg']
+Voix 9 : Bengali - Bengali - Langues : ['bn']
+Voix 10 : Bishnupriya Manipuri - Bishnupriya Manipuri - Langues : ['bpy']
+Voix 11 : Bosnian - Bosnian - Langues : ['bs']
+Voix 12 : Catalan - Catalan - Langues : ['ca']
+Voix 13 : Cherokee  - Cherokee  - Langues : ['chr-US-Qaaa-x-west']
+Voix 14 : Chinese (Mandarin, latin as English) - Chinese (Mandarin, latin as English) - Langues : ['cmn']
+Voix 15 : Chinese (Mandarin, latin as Pinyin) - Chinese (Mandarin, latin as Pinyin) - Langues : ['cmn-latn-pinyin']
+Voix 16 : Czech - Czech - Langues : ['cs']
+Voix 17 : Chuvash - Chuvash - Langues : ['cv']
+Voix 18 : Welsh - Welsh - Langues : ['cy']
+Voix 19 : Danish - Danish - Langues : ['da']
+Voix 20 : German - German - Langues : ['de']
+Voix 21 : Greek - Greek - Langues : ['el']
+Voix 22 : English (Caribbean) - English (Caribbean) - Langues : ['en-029']
+Voix 23 : English (Great Britain) - English (Great Britain) - Langues : ['en-gb']
+Voix 24 : English (Scotland) - English (Scotland) - Langues : ['en-gb-scotland']
+Voix 25 : English (Lancaster) - English (Lancaster) - Langues : ['en-gb-x-gbclan']
+Voix 26 : English (West Midlands) - English (West Midlands) - Langues : ['en-gb-x-gbcwmd']
+Voix 27 : English (Received Pronunciation) - English (Received Pronunciation) - Langues : ['en-gb-x-rp']
+Voix 28 : English (America) - English (America) - Langues : ['en-us']
+Voix 29 : English (America, New York City) - English (America, New York City) - Langues : ['en-us-nyc']
+Voix 30 : Esperanto - Esperanto - Langues : ['eo']
+Voix 31 : Spanish (Spain) - Spanish (Spain) - Langues : ['es']
+Voix 32 : Spanish (Latin America) - Spanish (Latin America) - Langues : ['es-419']
+Voix 33 : Estonian - Estonian - Langues : ['et']
+Voix 34 : Basque - Basque - Langues : ['eu']
+Voix 35 : Persian - Persian - Langues : ['fa']
+Voix 36 : Persian (Pinglish) - Persian (Pinglish) - Langues : ['fa-latn']
+Voix 37 : Finnish - Finnish - Langues : ['fi']
+Voix 38 : French (Belgium) - French (Belgium) - Langues : ['fr-be']
+Voix 39 : French (Switzerland) - French (Switzerland) - Langues : ['fr-ch']
+Voix 40 : French (France) - French (France) - Langues : ['fr-fr']
+Voix 41 : Gaelic (Irish) - Gaelic (Irish) - Langues : ['ga']
+Voix 42 : Gaelic (Scottish) - Gaelic (Scottish) - Langues : ['gd']
+Voix 43 : Guarani - Guarani - Langues : ['gn']
+Voix 44 : Greek (Ancient) - Greek (Ancient) - Langues : ['grc']
+Voix 45 : Gujarati - Gujarati - Langues : ['gu']
+Voix 46 : Hakka Chinese - Hakka Chinese - Langues : ['hak']
+Voix 47 : Hawaiian - Hawaiian - Langues : ['haw']
+Voix 48 : Hebrew - Hebrew - Langues : ['he']
+Voix 49 : Hindi - Hindi - Langues : ['hi']
+Voix 50 : Croatian - Croatian - Langues : ['hr']
+Voix 51 : Haitian Creole - Haitian Creole - Langues : ['ht']
+Voix 52 : Hungarian - Hungarian - Langues : ['hu']
+Voix 53 : Armenian (East Armenia) - Armenian (East Armenia) - Langues : ['hy']
+Voix 54 : Armenian (West Armenia) - Armenian (West Armenia) - Langues : ['hyw']
+Voix 55 : Interlingua - Interlingua - Langues : ['ia']
+Voix 56 : Indonesian - Indonesian - Langues : ['id']
+Voix 57 : Ido - Ido - Langues : ['io']
+Voix 58 : Icelandic - Icelandic - Langues : ['is']
+Voix 59 : Italian - Italian - Langues : ['it']
+Voix 60 : Japanese - Japanese - Langues : ['ja']
+Voix 61 : Lojban - Lojban - Langues : ['jbo']
+Voix 62 : Georgian - Georgian - Langues : ['ka']
+Voix 63 : Kazakh - Kazakh - Langues : ['kk']
+Voix 64 : Greenlandic - Greenlandic - Langues : ['kl']
+Voix 65 : Kannada - Kannada - Langues : ['kn']
+Voix 66 : Korean - Korean - Langues : ['ko']
+Voix 67 : Konkani - Konkani - Langues : ['kok']
+Voix 68 : Kurdish - Kurdish - Langues : ['ku']
+Voix 69 : Kyrgyz - Kyrgyz - Langues : ['ky']
+Voix 70 : Latin - Latin - Langues : ['la']
+Voix 71 : Luxembourgish - Luxembourgish - Langues : ['lb']
+Voix 72 : Lingua Franca Nova - Lingua Franca Nova - Langues : ['lfn']
+Voix 73 : Lithuanian - Lithuanian - Langues : ['lt']
+Voix 74 : Latgalian - Latgalian - Langues : ['ltg']
+Voix 75 : Latvian - Latvian - Langues : ['lv']
+Voix 76 : Māori - Māori - Langues : ['mi']
+Voix 77 : Macedonian - Macedonian - Langues : ['mk']
+Voix 78 : Malayalam - Malayalam - Langues : ['ml']
+Voix 79 : Marathi - Marathi - Langues : ['mr']
+Voix 80 : Malay - Malay - Langues : ['ms']
+Voix 81 : Maltese - Maltese - Langues : ['mt']
+Voix 82 : Myanmar (Burmese) - Myanmar (Burmese) - Langues : ['my']
+Voix 83 : Norwegian Bokmål - Norwegian Bokmål - Langues : ['nb']
+Voix 84 : Nahuatl (Classical) - Nahuatl (Classical) - Langues : ['nci']
+Voix 85 : Nepali - Nepali - Langues : ['ne']
+Voix 86 : Dutch - Dutch - Langues : ['nl']
+Voix 87 : Nogai - Nogai - Langues : ['nog']
+Voix 88 : Oromo - Oromo - Langues : ['om']
+Voix 89 : Oriya - Oriya - Langues : ['or']
+Voix 90 : Punjabi - Punjabi - Langues : ['pa']
+Voix 91 : Papiamento - Papiamento - Langues : ['pap']
+Voix 92 : Klingon - Klingon - Langues : ['piqd']
+Voix 93 : Polish - Polish - Langues : ['pl']
+Voix 94 : Portuguese (Portugal) - Portuguese (Portugal) - Langues : ['pt']
+Voix 95 : Portuguese (Brazil) - Portuguese (Brazil) - Langues : ['pt-br']
+Voix 96 : Pyash - Pyash - Langues : ['py']
+Voix 97 : Lang_Belta - Lang_Belta - Langues : ['qdb']
+Voix 98 : Quechua - Quechua - Langues : ['qu']
+Voix 99 : K'iche' - K'iche' - Langues : ['quc']
+Voix 100 : Quenya - Quenya - Langues : ['qya']
+Voix 101 : Romanian - Romanian - Langues : ['ro']
+Voix 102 : Russian - Russian - Langues : ['ru']
+Voix 103 : Russian (Latvia) - Russian (Latvia) - Langues : ['ru-lv']
+Voix 104 : Sindhi - Sindhi - Langues : ['sd']
+Voix 105 : Shan (Tai Yai) - Shan (Tai Yai) - Langues : ['shn']
+Voix 106 : Sinhala - Sinhala - Langues : ['si']
+Voix 107 : Sindarin - Sindarin - Langues : ['sjn']
+Voix 108 : Slovak - Slovak - Langues : ['sk']
+Voix 109 : Slovenian - Slovenian - Langues : ['sl']
+Voix 110 : Lule Saami - Lule Saami - Langues : ['smj']
+Voix 111 : Albanian - Albanian - Langues : ['sq']
+Voix 112 : Serbian - Serbian - Langues : ['sr']
+Voix 113 : Swedish - Swedish - Langues : ['sv']
+Voix 114 : Swahili - Swahili - Langues : ['sw']
+Voix 115 : Tamil - Tamil - Langues : ['ta']
+Voix 116 : Telugu - Telugu - Langues : ['te']
+Voix 117 : Thai - Thai - Langues : ['th']
+Voix 118 : Turkmen - Turkmen - Langues : ['tk']
+Voix 119 : Setswana - Setswana - Langues : ['tn']
+Voix 120 : Turkish - Turkish - Langues : ['tr']
+Voix 121 : Tatar - Tatar - Langues : ['tt']
+Voix 122 : Uyghur - Uyghur - Langues : ['ug']
+Voix 123 : Ukrainian - Ukrainian - Langues : ['uk']
+Voix 124 : Urdu - Urdu - Langues : ['ur']
+Voix 125 : Uzbek - Uzbek - Langues : ['uz']
+Voix 126 : Vietnamese (Northern) - Vietnamese (Northern) - Langues : ['vi']
+Voix 127 : Vietnamese (Central) - Vietnamese (Central) - Langues : ['vi-vn-x-central']
+Voix 128 : Vietnamese (Southern) - Vietnamese (Southern) - Langues : ['vi-vn-x-south']
+Voix 129 : Chinese (Cantonese) - Chinese (Cantonese) - Langues : ['yue']
+Voix 130 : Chinese (Cantonese, latin as Jyutping) - Chinese (Cantonese, latin as Jyutping) - Langues : ['yue']
+====================================================
+
+>>>
